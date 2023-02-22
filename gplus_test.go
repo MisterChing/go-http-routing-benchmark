@@ -146,9 +146,9 @@ func init() {
 	calcMem("Pat", func() {
 		gplusPat = loadPat(gplusAPI)
 	})
-	calcMem("Possum", func() {
-		gplusPossum = loadPossum(gplusAPI)
-	})
+	//calcMem("Possum", func() {
+	//	gplusPossum = loadPossum(gplusAPI)
+	//})
 	calcMem("R2router", func() {
 		gplusR2router = loadR2router(gplusAPI)
 	})

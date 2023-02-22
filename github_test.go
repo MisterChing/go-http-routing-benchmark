@@ -384,9 +384,9 @@ func init() {
 	calcMem("Pat", func() {
 		githubPat = loadPat(githubAPI)
 	})
-	calcMem("Possum", func() {
-		githubPossum = loadPossum(githubAPI)
-	})
+	//calcMem("Possum", func() {
+	//	githubPossum = loadPossum(githubAPI)
+	//})
 	calcMem("R2router", func() {
 		githubR2router = loadR2router(githubAPI)
 	})

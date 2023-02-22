@@ -166,9 +166,9 @@ func init() {
 	calcMem("Pat", func() {
 		parsePat = loadPat(parseAPI)
 	})
-	calcMem("Possum", func() {
-		parsePossum = loadPossum(parseAPI)
-	})
+	//calcMem("Possum", func() {
+	//	parsePossum = loadPossum(parseAPI)
+	//})
 	calcMem("R2router", func() {
 		parseR2router = loadR2router(parseAPI)
 	})

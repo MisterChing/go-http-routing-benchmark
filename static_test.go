@@ -290,9 +290,9 @@ func init() {
 	calcMem("Pat", func() {
 		staticPat = loadPat(staticRoutes)
 	})
-	calcMem("Possum", func() {
-		staticPossum = loadPossum(staticRoutes)
-	})
+	//calcMem("Possum", func() {
+	//	staticPossum = loadPossum(staticRoutes)
+	//})
 	calcMem("R2router", func() {
 		staticR2router = loadR2router(staticRoutes)
 	})

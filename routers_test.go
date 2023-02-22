@@ -36,7 +36,7 @@ var (
 		{"Macaron", loadMacaron},
 		{"Martini", loadMartini},
 		{"Pat", loadPat},
-		{"Possum", loadPossum},
+		//{"Possum", loadPossum},
 		{"R2router", loadR2router},
 		// {"Revel", loadRevel},
 		{"Rivet", loadRivet},
